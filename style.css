@@ -1,0 +1,302 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('imagenFondo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -2;
+}
+
+.background-image-filter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /*background-color: #2649bd5b;*/
+  background-color: #ff91021e;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+
+#inicio-fix{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#inicio {
+  position: relative;
+  width: 600px;
+  height: 610px;
+  left: 100px;
+  top: 100px;
+}
+
+.navegador {
+  color: #FDFDF8;
+}
+
+.titulo {
+  display: flex;
+  flex-direction: column;
+  top: 100px;
+}
+
+.primera {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 100px;
+  color: #FF9102;
+}
+
+.container-precios {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-image-precios {
+  position: absolute;
+  top: 1;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /*background-color: #2649bd5b;*/
+  background-color: #ECA549;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.precios-header {
+  font-size: 30px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#servicios {
+  background-color: #694920;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.servicio {
+  width: 400px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.servicio h3 {
+  font-size: 24px;
+  margin: 0 0 10px;
+}
+
+.servicio p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.pricing-plan {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 40px;
+  color: #333;
+  font-size: 24px;
+  text-align: center;
+}
+
+#sobreNosotros {
+  height: 100vh;
+}
+.container-sobreNosotros {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+#sobreNosotros p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.subscribe-btn {
+  background-color: #FF9102;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.subscribe-btn:hover {
+  background-color: #FDFDF8;
+  color: #FF9102;
+
+}
+.segunda {
+  position: relative;
+  font-size: 70px;
+  color: #FDFDF8;
+  letter-spacing: 25px;
+}
+  
+h2 {
+  font-size: 30px;
+  color: #FF9102;
+}
+
+.cuadrado {
+  position: absolute;
+  top: 230px;
+  left: 7px;
+  transform: translateY(-50%);
+  background-color: #FF9102;
+  width: 215px;
+  height: 50px;
+  z-index: -1;
+}
+
+.login-signup-box {
+  display: flex;
+}
+
+.login-box {
+  position: relative;
+  color: #000000;
+  background-color: #FF9102;
+  font-size: 20px;
+  width: 150px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-box {
+  position: relative;
+  border: 3px solid #ffffff;
+  color: #FDFDF8;
+  background-color: transparent;
+  font-size: 20px;
+  left: 40px;
+  width: 144px;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.descripcion {
+  font-size: 15px;
+  color: #FDFDF8;
+}
+
+.container-sobreNosotros p{
+  color: #ffffff;
+}
+
+header {
+  background-color: transparent;
+  padding: 20px;
+}
+
+nav {
+  position: fixed; 
+  top: 0; 
+  right: 0; 
+  background-color: transparent;
+  padding: 20px;
+}
+
+nav ul {
+  float: right; 
+}
+
+nav ul li {
+  display: inline-block; 
+  margin-left: 50px; 
+}
+
+section {
+  padding: 40px 0;
+}
+
+section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form textarea {
+  height: 120px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
